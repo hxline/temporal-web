@@ -18,10 +18,10 @@ function makeTimer() {
 			if (minutes < "10") { minutes = "0" + minutes; }
 			if (seconds < "10") { seconds = "0" + seconds; }
 
-			$(".time-entry.days").html("<span>" + days + "</span> Days");
-			$(".time-entry.hours").html("<span>" + hours + "</span> Hours");
-			$(".time-entry.minutes").html("<span>" + minutes + "</span> Minutes");
-			$(".time-entry.seconds").html("<span>" + seconds + "</span> Seconds");		
+			$(".time-entry.days").html("<span>" + days + "</span> Hari");
+			$(".time-entry.hours").html("<span>" + hours + "</span> Jam");
+			$(".time-entry.minutes").html("<span>" + minutes + "</span> Menit");
+			$(".time-entry.seconds").html("<span>" + seconds + "</span> Detik");		
 
 	}
 
