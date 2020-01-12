@@ -24,6 +24,7 @@
     <!-- Responsive Style -->
     <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
 
@@ -37,7 +38,7 @@
         <div class="row text-center">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="heading-count">
-              <h3>Pendaftaran Kejuaraan Pencak Silat YP. Informatika Open Tingkat SD, SMP/MTS Dibuka</h2>
+              <h4>Pendaftaran Kejuaraan Pencak Silat YP. Informatika Open Tingkat SD, SMP/MTS Akan Dibuka</h4>
             </div>
           </div>
           <div class="col-md-12 col-sm-12 col-xs-12">
@@ -45,18 +46,16 @@
               <div id="clock" class="time-count"></div>
             </div>
             <p>
-            Segera persiapkan kandidat anda dan raihlah juara 
+            Segera persiapkan kandidat anda dan raihlah juara <br/>
+            Informasi lebih lanjut silahkan klik icon dibawah
             </p>
             <!-- <div class="button-group">
               <a href="#" class="btn btn-common">Notify Me</a>
               <a href="#" class="btn btn-border">About Us</a>
-            </div>
-            <div class="social mt-4">
-              <a class="facebook" href="#"><i class="lni-facebook-filled"></i></a>
-              <a class="twitter" href="#"><i class="lni-twitter-filled"></i></a>
-              <a class="instagram" href="#"><i class="lni-instagram-filled"></i></a>
-              <a class="google" href="#"><i class="lni-google-plus"></i></a>
             </div> -->
+            <div class="social mt-4">
+              <a href="https://wa.me/6287871942562"><i class="fa fa-whatsapp" style="font-size:48px;color:green"></i></a>
+            </div>
           </div>
         </div>
       </div>
