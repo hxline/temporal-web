@@ -38,7 +38,7 @@
         <div class="row text-center">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="heading-count">
-              <h3>Pendaftaran Kejuaraan Pencak Silat YP. Informatika Open Tingkat SD, SMP/MTS Akan Dibuka</h3>
+              <h4>Pendaftaran Kejuaraan Pencak Silat YP. Informatika Open Tingkat SD, SMP/MTS Akan Dibuka</h4>
             </div>
           </div>
           <div class="col-md-12 col-sm-12 col-xs-12">
