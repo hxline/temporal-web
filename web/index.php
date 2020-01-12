@@ -83,7 +83,8 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/form-validator.min.js"></script>
     <script src="assets/js/contact-form-script.min.js"></script>
-
+    <script src="assets/js/countdown.js"></script>
+    
     <script type="text/javascript">
       $("#example").vegas({
           timer: false,
