@@ -38,7 +38,7 @@
         <div class="row text-center">
           <div class="col-md-12 col-sm-12 col-xs-12">
             <div class="heading-count">
-              <h4>Pendaftaran Kejuaraan Pencak Silat YP. Informatika Open Tingkat SD, SMP/MTS Akan Dibuka</h4>
+              <h3>Pendaftaran Kejuaraan Pencak Silat YP. Informatika Open Tingkat SD, SMP/MTS Akan Dibuka</h3>
             </div>
           </div>
           <div class="col-md-12 col-sm-12 col-xs-12">
@@ -46,7 +46,7 @@
               <div id="clock" class="time-count"></div>
             </div>
             <p>
-            Segera persiapkan kandidat anda dan raihlah juara <br/>
+            Segera persiapkan kandidat anda untuk berkompetisi di kejuaraan ini <br/>
             Informasi lebih lanjut silahkan klik icon dibawah
             </p>
             <!-- <div class="button-group">
@@ -54,7 +54,7 @@
               <a href="#" class="btn btn-border">About Us</a>
             </div> -->
             <div class="social mt-4">
-              <a href="https://wa.me/6287871942562"><i class="fa fa-whatsapp" style="font-size:48px;color:green"></i></a>
+              <a href="https://wa.me/62818820406"><i class="fa fa-whatsapp" style="font-size:48px;color:green"></i></a>
             </div>
           </div>
         </div>
