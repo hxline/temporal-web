@@ -1,102 +1,139 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <title>Bolt - Coming Soon Template</title>
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
-    <!-- Fonts -->
-    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
-    <!-- Slicknav -->
-    <link rel="stylesheet" type="text/css" href="assets/css/slicknav.css">
-    <!-- Off Canvas Menu -->
-    <link rel="stylesheet" type="text/css" href="assets/css/menu_sideslide.css">
-    <!-- Color Switcher -->
-    <link rel="stylesheet" type="text/css" href="assets/css/vegas.min.css">
+    <!-- Page Title -->
+    <title>Wexim - Coming Soon</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
     <!-- Animate -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-    <!-- Main Style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <!-- Responsive Style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Cube Portfolio -->
+    <link rel="stylesheet" href="css/cubeportfolio.min.css">
+    <!-- Fancy Box -->
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <!-- REVOLUTION STYLE SHEETS -->
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/navigation.css">
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
 
-    <div class="bg-wraper overlay has-vignette">
-      <div id="example" class="slider opacity-50 vegas-container" style="height: 983px; filter: blur(8px); -webkit-filter: blur(8px);"></div>
-    </div>
+</head>
+<body>
 
-    <!-- Coundown Section Start -->
-    <section class="countdown-timer bg-text">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="heading-count">
-              <h4>Pendaftaran Kejuaraan Pencak Silat YP. Informatika Open Tingkat SD, SMP/MTS Akan Dibuka</h4>
-            </div>
-          </div>
-          <div class="col-md-12 col-sm-12 col-xs-12">
-            <div class="row time-countdown justify-content-center">
-              <div id="clock" class="time-count"></div>
-            </div>
-            <p>
-            Segera persiapkan kandidat anda untuk berkompetisi di kejuaraan ini <br/>
-            Informasi lebih lanjut silahkan klik icon dibawah
-            </p>
-            <!-- <div class="button-group">
-              <a href="#" class="btn btn-common">Notify Me</a>
-              <a href="#" class="btn btn-border">About Us</a>
-            </div> -->
-            <div class="social mt-4">
-              <a href="https://wa.me/62818820406"><i class="fa fa-whatsapp" style="font-size:48px;color:green"></i></a>
-            </div>
-          </div>
+<!--Loader Start-->
+<div class="loader d-none">
+    <div class="loader-inner">
+        <div class="loader-blocks">
+            <span class="block-1"></span>
+            <span class="block-2"></span>
+            <span class="block-3"></span>
+            <span class="block-4"></span>
+            <span class="block-5"></span>
+            <span class="block-6"></span>
+            <span class="block-7"></span>
+            <span class="block-8"></span>
+            <span class="block-9"></span>
+            <span class="block-10"></span>
+            <span class="block-11"></span>
+            <span class="block-12"></span>
+            <span class="block-13"></span>
+            <span class="block-14"></span>
+            <span class="block-15"></span>
+            <span class="block-16"></span>
         </div>
-      </div>
-    </section>
-    <!-- Coundown Section End -->
-
-    <!-- Preloader -->
-    <div id="preloader">
-      <div class="loader" id="loader-1"></div>
     </div>
-    <!-- End Preloader -->
+</div>
+<!--Loader End-->
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery-min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/vegas.min.js"></script>
-    <script src="assets/js/jquery.countdown.min.js"></script>
-    <script src="assets/js/classie.js"></script>
-    <script src="assets/js/jquery.nav.js"></script>
-    <script src="assets/js/jquery.easing.min.js"></script> 
-    <script src="assets/js/wow.js"></script>
-    <script src="assets/js/jquery.slicknav.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/form-validator.min.js"></script>
-    <script src="assets/js/contact-form-script.min.js"></script>
-    <script src="assets/js/countdown.js"></script>
-    
-    <script type="text/javascript">
-      $("#example").vegas({
-          timer: false,
-          delay: 6000,
-          transitionDuration: 2000,
-          transition: "blur",
-          slides: [
-              { src: "assets/img/slide1.jpg" },
-              { src: "assets/img/slide2.jpg" },
-              { src: "assets/img/slide3.jpg" }
-          ]
-      });
-    </script>
-      
-  </body>
+<!-- Main Slider -->
+<section id="home" class="p-0">
+    <h2 class="d-none">hidden</h2>
+    <div class="fullscreen parallax bg-img-count2">
+        <div class="bg-overlay bg-black opacity-8"></div>
+        <div class="col-xs-12 text-center center-col">
+
+            <div class="title d-inline-block mb-0">
+                <h2 class="mb-3 text-white font-weight-bold">SEGERA <span class="third-color"> PERSIAPKAN</span></h2>
+                <p class="text-white">Kejuaraan Pencak Silat Tahun Kedua YP. Informatika Open Tingkat SD/SMP/MTS akan hadir dalam waktu dekat</p>
+            </div>
+
+
+            <ul class="count_down white alt-font white">
+                <li>
+                    <p class="days">00</p>
+                    <p class="days_ref">hari</p>
+                </li>
+
+                <li>
+                    <p class="hours">00</p>
+                    <p class="hours_ref">jam</p>
+                </li>
+
+                <li>
+                    <p class="minutes">00</p>
+                    <p class="minutes_ref">menit</p>
+                </li>
+
+                <li>
+                    <p class="seconds">00</p>
+                    <p class="seconds_ref">detik</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</section>
+<!--Main Slider ends -->
+
+
+
+
+<!-- Optional JavaScript -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.appear.js"></script>
+<!-- isotop gallery -->
+<script src="js/isotope.pkgd.min.js"></script>
+<!-- cube portfolio gallery -->
+<script src="js/jquery.cubeportfolio.min.js"></script>
+<!-- owl carousel slider -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- parallax Background -->
+<script src="js/parallaxie.min.js"></script>
+<!-- countdown -->
+<script src="js/jquery.countdown.js"></script>
+<!--wow-->
+<script src="js/wow.js"></script>
+<!-- fancybox popup -->
+<script src="js/jquery.fancybox.min.js"></script>
+<!-- REVOLUTION JS FILES -->
+<script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+<script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<!-- SLIDER REVOLUTION EXTENSIONS -->
+<script src="rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
+<script src="rs-plugin/js/extensions/revolution.extension.carousel.min.js"></script>
+<script src="rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
+<script src="rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+<script src="rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
+<script src="rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+<!-- custom script -->
+<script src="js/script.js"></script>
+<script src="js/countdown.js"></script>
+
+</body>
 </html>
