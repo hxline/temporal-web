@@ -7,7 +7,7 @@
     <!-- Page Title -->
     <title>Segera Hadir YPI - Silat Open Tournament</title>
     <!-- Favicon -->
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="#">
     <!-- Animate -->
     <link rel="stylesheet" href="css/animate.min.css">
     <!-- Bootstrap CSS -->
