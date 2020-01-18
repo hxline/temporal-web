@@ -1,10 +1,3 @@
-<?php
-    //Detect special conditions devices
-    $iPod    = stripos($_SERVER['HTTP_USER_AGENT'],"iPod");
-    $iPhone  = stripos($_SERVER['HTTP_USER_AGENT'],"iPhone");
-    $iPad    = stripos($_SERVER['HTTP_USER_AGENT'],"iPad");
-    $Android = stripos($_SERVER['HTTP_USER_AGENT'],"Android");
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -310,8 +303,8 @@
 <section id="contact" class="p-0">
     <div class="container-fluid">
         <div class="row align-items-center">
-            <div class="col-md-6 p-0">
-                <div class="address-box title mb-0 bg-img4">
+            <div class="col-md-12 p-0">
+                <div class="address-box title mb-0">
                     <!--overlay-->
                     <div class="bg-overlay gradient-bg1 opacity-8"></div>
                     <div class="address-text text-center text-white position-relative wow fadeInUp">
@@ -330,17 +323,11 @@
                     </div>
                 </div>
             </div>
-            <?php
-                if (!$iPad || !$iPhone || !$iPod || !$Android) {
-            ?>
-            <div class="col-md-6 p-0">
+            <!-- <div class="col-md-6 p-0">
                 <div id="map" class="half-map bg-img-map">
 
                 </div>
-            </div>
-            <?php
-                }
-            ?>
+            </div> -->
         </div>
     </div>
 </section>
@@ -400,14 +387,8 @@
 <script src="rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
 <script src="rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
 <!-- map -->
-<?php
-    if (!$iPad || !$iPhone || !$iPod || !$Android) {
-?>
-<script src="http://maps.google.com/maps/api/js?key=AIzaSyA60wYXnH9P1paQGrMkr3VdsMFef3xqEtQ"></script>
-<script src="js/map.js"></script>
-<?php
-    }
-?>
+<!-- <script src="http://maps.google.com/maps/api/js?key=AIzaSyA60wYXnH9P1paQGrMkr3VdsMFef3xqEtQ"></script>
+<script src="js/map.js"></script> -->
 <!-- custom script -->
 <script src="js/script.js"></script>
 
