@@ -284,7 +284,7 @@
             <div id="price-slider" class="owl-carousel owl-item wow fadeInUp">
             <!--price item-->
             <div class="price-item text-left">
-                <h4 class="alt-font d-inline-block font-weight-500 mb-4">Popular</h4>
+                <h4 class="alt-font d-inline-block font-weight-500 mb-4">Biaya</h4>
                 <div class="price-tag d-flex align-items-center">
                     <div class="price alt-font text-dark-gray">
                         <h3 class="currency"><span class="sign">Rp</span>120.000</h3>
