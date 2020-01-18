@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Page Title -->
-    <title>Wexim - Coming Soon</title>
+    <title>Segera Hadir YPI - Silat Open Tournament</title>
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.ico">
     <!-- Animate -->
