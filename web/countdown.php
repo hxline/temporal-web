@@ -82,7 +82,7 @@
                          data-aspectratio="16:9"
                          data-autoplay="true"
                          data-autoplayonlyfirsttime="false"></div>
-                         <div class="bg-overlay bg-black opacity-8"></div>
+                         <div class="bg-overlay bg-black opacity-3"></div>
                          <div class="col-xs-12 text-center center-col">
                  
                              <div class="title d-inline-block mb-0">
